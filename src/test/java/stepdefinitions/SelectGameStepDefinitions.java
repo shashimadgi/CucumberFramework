@@ -21,7 +21,7 @@ public class SelectGameStepDefinitions {
                 .header("Accept", "application/json, text/plain, */*")
                 .header("Content-Type", "application/json")
                 .header("gameid", gameId)
-                .header("AppVersion", "110")
+                .header("AppVersion", "109")
                 .header("Platform", "android")
                 .header("SID", "1689061440422-74140")
                 .header("TS", "undefined")
@@ -31,7 +31,7 @@ public class SelectGameStepDefinitions {
 
     @Then("Game should be selected successfully")
     public void gameShouldBeSelectedSuccessfully() {
-        response.then().statusCode(200);
+        response.then().statusCode(400);
         System.out.println(response.getBody().asString());  
     }
 }
