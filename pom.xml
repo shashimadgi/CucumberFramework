@@ -71,6 +71,13 @@
                         </configuration>
                     </execution>
                 </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.shared</groupId>
+                        <artifactId>maven-shared-utils</artifactId>
+                        <version>3.3.0</version>
+                    </dependency>
+                </dependencies>
             </plugin>
 
             <!-- Maven Surefire Plugin for generating XML reports -->
