@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="stepdefinitions.TestRunner" time="1.649" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepdefinitions.TestRunner" time="1.723" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/ats/Documents/cucumberproject/target/surefire/surefirebooter7518988352061429964.jar /Users/ats/Documents/cucumberproject/target/surefire 2024-03-10T12-06-51_106-jvmRun1 surefire2614812155235154700tmp surefire_04347434221934026444tmp"/>
+    <property name="sun.java.command" value="/Users/ats/Documents/cucumberproject/target/surefire/surefirebooter2297465660813232787.jar /Users/ats/Documents/cucumberproject/target/surefire 2024-03-10T12-32-57_521-jvmRun1 surefire1268358990263931638tmp surefire_04499228644295837061tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/ats/Documents/cucumberproject/target/test-classes:/Users/ats/Documents/cucumberproject/target/classes:/Users/ats/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/ats/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/ats/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/ats/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/ats/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/ats/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/ats/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/ats/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/ats/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/ats/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/ats/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/ats/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/ats/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/ats/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/ats/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/ats/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/Users/ats/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/ats/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/ats/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/ats/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ats/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ats/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ats/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ats/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ats/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ats/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ats/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/ats/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/ats/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/ats/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/ats/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/ats/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/ats/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/ats/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/ats/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ats/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/ats/Documents/cucumberproject/target/surefire/surefirebooter7518988352061429964.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ats/Documents/cucumberproject/target/surefire/surefirebooter2297465660813232787.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -63,31 +63,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="Send OTP Validation" classname="Login Feature" time="0.942">
-    <system-out><![CDATA[
-Scenario: Send OTP Validation          &amp#27;[90m# src/test/resources/features/login.feature:6&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the login page&amp#27;[0m         &amp#27;[90m# stepdefinitions.SendOTPStepDefinitions.iAmOnLoginPage()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send OTP for game &amp#27;[0m&amp#27;[32m&amp#27;[1m"bgmi"&amp#27;[0m      &amp#27;[90m# stepdefinitions.SendOTPStepDefinitions.iSendOTPForGame(java.lang.String)&amp#27;[0m
-{"message":"Otp Sent","provider":"GUPSHUP"}
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOTP should be sent successfully&amp#27;[0m &amp#27;[90m# stepdefinitions.SendOTPStepDefinitions.otpShouldBeSentSuccessfully()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Verify OTP Validation" classname="Login Feature" time="0.171">
-    <system-out><![CDATA[
-Scenario: Verify OTP Validation            &amp#27;[90m# src/test/resources/features/login.feature:11&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the OTP verification page&amp#27;[0m  &amp#27;[90m# stepdefinitions.VerifyOTPStepDefinitions.iAmOnOTPVerificationPage()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI verify OTP &amp#27;[0m&amp#27;[32m&amp#27;[1m"5555"&amp#27;[0m&amp#27;[32m for game &amp#27;[0m&amp#27;[32m&amp#27;[1m"bgmi"&amp#27;[0m &amp#27;[90m# stepdefinitions.VerifyOTPStepDefinitions.iVerifyOTPForGame(java.lang.String,java.lang.String)&amp#27;[0m
-{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiZ21pUHJvZmlsZUlkIjo0Mzc5MjksImV4cCI6MTcxMjY0NDYxMiwiZnJlZWZpcmVQcm9maWxlSWQiOjQzNzkzOCwiaWF0IjoxNzEwMDUyNjEyLCJpZCI6NTA5NjIxfQ.U8anZ_Ou6-DIYVXT6jFYYbnGJb4HW9dw1VkimYKKjSA","firebase_token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1teGcyc0BzdGFuLXJuLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6Ly9pZGVudGl0eXRvb2xraXQuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJleHAiOjE3MTAwNTYyMTIsImlhdCI6MTcxMDA1MjYxMiwic3ViIjoiZmlyZWJhc2UtYWRtaW5zZGstbXhnMnNAc3Rhbi1ybi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInVpZCI6IjUwOTYyMSJ9.cpZgrz8rY8A3N14Ar3a2LziZRxWSSZEBP5h4RGvrfMkBXyAlmC--NqndXte2Z1VTOenE9TlM1wjjZfxpU1i7iw_3l0nuQsD-I-AYwXyJ4LB9iSuBlk65dQtDeoY52OK8r3WBFp1iaoEH7yhH5r-i1dJm-pIAOLnyh4xtj9jUckA0DuRHGJoJprttwQ2Lah1BYLUORHVp3JJN_tklu898rIF7s4Dfp4zwIVxNrMyMJJ2tepVWvesVF3RTpSQpGCJCwSNMr7aWWqCprTZTZyjbdWIPBcddTfi4uJIcYUviFqY_1f3cP13D95m6QXWiqr2wqrTNmkdLdr68snLGhD1WlA","isFirstProfileCreated":true,"isNewUser":false,"isOnboardingCompleted":true,"nftCount":6,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiZ21pUHJvZmlsZUlkIjo0Mzc5MjksImV4cCI6MTcxNzgyODYxMiwiZnJlZWZpcmVQcm9maWxlSWQiOjQzNzkzOCwiaWF0IjoxNzEwMDUyNjEyLCJpZCI6NTA5NjIxfQ.r4OONVHvIfufjx3FeTM5bWvQv6k1LEKcHnnYQ7BjSR8","user":{"bgmiProfileId":437929,"bio":"Ghhfhgjghugugy ghgjhfhhhdjjjh gyvycycctxtxtxtctctxtxtuvuhdhd","coverPic":"","deviceId":"36e27f877d1a7c25","email":"","emailVerified":false,"freefireProfileId":437938,"gameId":"freefire","id":509621,"name":"Opgamer","phone":"+919999999999","phoneNumberVerified":1,"profileId":437938,"profilePic":"","referralCode":"7PGNE509","username":"Y0Z1OZAN"}}
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOTP should be verified successfully&amp#27;[0m &amp#27;[90m# stepdefinitions.VerifyOTPStepDefinitions.otpShouldBeVerifiedSuccessfully()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Select Game Validation" classname="Login Feature" time="0.17">
-    <system-out><![CDATA[
-Scenario: Select Game Validation            &amp#27;[90m# src/test/resources/features/login.feature:16&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the game selection page&amp#27;[0m     &amp#27;[90m# stepdefinitions.SelectGameStepDefinitions.iAmOnGameSelectionPage()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select game &amp#27;[0m&amp#27;[32m&amp#27;[1m"bgmi"&amp#27;[0m                 &amp#27;[90m# stepdefinitions.SelectGameStepDefinitions.iSelectGame(java.lang.String)&amp#27;[0m
-{"error":"Unauthorized","message":"Unauthorized","statusCode":401}
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mGame should be selected successfully&amp#27;[0m &amp#27;[90m# stepdefinitions.SelectGameStepDefinitions.gameShouldBeSelectedSuccessfully()&amp#27;[0m
-]]></system-out>
-  </testcase>
+  <testcase name="Send OTP Validation" classname="Login Feature" time="1.045"/>
+  <testcase name="Verify OTP Validation" classname="Login Feature" time="0.2"/>
+  <testcase name="Select Game Validation" classname="Login Feature" time="0.195"/>
 </testsuite>
