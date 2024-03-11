@@ -31,7 +31,7 @@ public class SelectGameStepDefinitions {
 
     @Then("Game should be selected successfully")
     public void gameShouldBeSelectedSuccessfully() {
-        response.then().statusCode(400);
+        response.then().statusCode(200);
         System.out.println(response.getBody().asString());  
     }
 }
